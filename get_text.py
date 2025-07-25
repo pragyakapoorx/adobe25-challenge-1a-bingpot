@@ -32,6 +32,6 @@ def extract_and_clean_text(pdf_path):
     cleaned_text = merge_fragments(raw_text)
     return cleaned_text
 
-pdf_path = "E:/Academics/Adobe_Hackathon25/GitHub_Adobe-Hackathon25/Challenge_1a/sample_dataset/pdfs/file03.pdf"
+pdf_path = "E:/Academics/Adobe_Hackathon25/GitHub_Adobe-Hackathon25/Challenge_1a/sample_dataset/pdfs/file03.pdf"    #replace with filename location
 final_text = extract_and_clean_text(pdf_path)
 print(final_text)
