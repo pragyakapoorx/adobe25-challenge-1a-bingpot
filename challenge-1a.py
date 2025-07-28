@@ -3,8 +3,8 @@ import fitz  # PyMuPDF
 import json
 import re
 
-INPUT_DIR = "E:/Academics/Adobe_Hackathon25/GitHub_Adobe-Hackathon25/Challenge_1a/sample_dataset/pdfs"                #replace with your file location
-OUTPUT_DIR = "E:/Academics/Adobe_Hackathon25/GitHub_Adobe-Hackathon25/Challenge_1a/sample_dataset/pdfs/my_output"
+INPUT_DIR = "app/input"        #replace with your file location
+OUTPUT_DIR = "app/output"
 
 def merge_fragments(text, min_overlap=2):
     lines = [line.strip() for line in text.splitlines() if line.strip()]
