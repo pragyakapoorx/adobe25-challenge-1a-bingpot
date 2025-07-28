@@ -66,5 +66,4 @@ Edit the script(s) to use `/data` as the input/output directory inside the conta
 - Update the input/output paths in the scripts as needed for your environment or Docker usage.
 - Only PDFs are processed; other file types are ignored.
 
-## License
-MIT
+
